@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE964FF18EA716F000E0821 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE964FE18EA716F000E0821 /* Automator.framework */; };
+		CEE9650118EA716F000E0821 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE9650018EA716F000E0821 /* Cocoa.framework */; };
+		CEE9650B18EA716F000E0821 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE9650918EA716F000E0821 /* InfoPlist.strings */; };
+		CEE9650E18EA716F000E0821 /* DVAFilterFoldersAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE9650D18EA716F000E0821 /* DVAFilterFoldersAction.m */; };
+		CEE9651118EA716F000E0821 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE9650F18EA716F000E0821 /* main.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEE964FB18EA716F000E0821 /* DVAFilterFoldersAction.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVAFilterFoldersAction.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE964FE18EA716F000E0821 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		CEE9650018EA716F000E0821 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CEE9650318EA716F000E0821 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE9650418EA716F000E0821 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEE9650518EA716F000E0821 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CEE9650818EA716F000E0821 /* DVAFilterFoldersAction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DVAFilterFoldersAction-Info.plist"; sourceTree = "<group>"; };
+		CEE9650A18EA716F000E0821 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE9650C18EA716F000E0821 /* DVAFilterFoldersAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVAFilterFoldersAction.h; sourceTree = "<group>"; };
+		CEE9650D18EA716F000E0821 /* DVAFilterFoldersAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVAFilterFoldersAction.m; sourceTree = "<group>"; };
+		CEE9651018EA716F000E0821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/main.xib; sourceTree = "<group>"; };
+		CEE9651218EA716F000E0821 /* DVAFilterFoldersAction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVAFilterFoldersAction-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE964F718EA716F000E0821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE9650118EA716F000E0821 /* Cocoa.framework in Frameworks */,
+				CEE964FF18EA716F000E0821 /* Automator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE964F118EA716F000E0821 = {
+			isa = PBXGroup;
+			children = (
+				CEE9650618EA716F000E0821 /* DVAFilterFoldersAction */,
+				CEE964FD18EA716F000E0821 /* Frameworks */,
+				CEE964FC18EA716F000E0821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE964FC18EA716F000E0821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE964FB18EA716F000E0821 /* DVAFilterFoldersAction.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE964FD18EA716F000E0821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE964FE18EA716F000E0821 /* Automator.framework */,
+				CEE9650018EA716F000E0821 /* Cocoa.framework */,
+				CEE9650218EA716F000E0821 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE9650218EA716F000E0821 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9650318EA716F000E0821 /* Foundation.framework */,
+				CEE9650418EA716F000E0821 /* CoreData.framework */,
+				CEE9650518EA716F000E0821 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CEE9650618EA716F000E0821 /* DVAFilterFoldersAction */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9650C18EA716F000E0821 /* DVAFilterFoldersAction.h */,
+				CEE9650D18EA716F000E0821 /* DVAFilterFoldersAction.m */,
+				CEE9650F18EA716F000E0821 /* main.xib */,
+				CEE9650718EA716F000E0821 /* Supporting Files */,
+			);
+			path = DVAFilterFoldersAction;
+			sourceTree = "<group>";
+		};
+		CEE9650718EA716F000E0821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9650818EA716F000E0821 /* DVAFilterFoldersAction-Info.plist */,
+				CEE9650918EA716F000E0821 /* InfoPlist.strings */,
+				CEE9651218EA716F000E0821 /* DVAFilterFoldersAction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE964FA18EA716F000E0821 /* DVAFilterFoldersAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE9651518EA716F000E0821 /* Build configuration list for PBXNativeTarget "DVAFilterFoldersAction" */;
+			buildPhases = (
+				CEE964F618EA716F000E0821 /* Sources */,
+				CEE964F718EA716F000E0821 /* Frameworks */,
+				CEE964F818EA716F000E0821 /* Resources */,
+				CEE964F918EA716F000E0821 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVAFilterFoldersAction;
+			productName = DVAFilterFoldersAction;
+			productReference = CEE964FB18EA716F000E0821 /* DVAFilterFoldersAction.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE964F218EA716F000E0821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dan VanWinkle";
+			};
+			buildConfigurationList = CEE964F518EA716F000E0821 /* Build configuration list for PBXProject "DVAFilterFoldersAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE964F118EA716F000E0821;
+			productRefGroup = CEE964FC18EA716F000E0821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE964FA18EA716F000E0821 /* DVAFilterFoldersAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE964F818EA716F000E0821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE9651118EA716F000E0821 /* main.xib in Resources */,
+				CEE9650B18EA716F000E0821 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEE964F918EA716F000E0821 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE964F618EA716F000E0821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE9650E18EA716F000E0821 /* DVAFilterFoldersAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE9650918EA716F000E0821 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE9650A18EA716F000E0821 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE9650F18EA716F000E0821 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE9651018EA716F000E0821 /* Base */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE9651318EA716F000E0821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEE9651418EA716F000E0821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEE9651618EA716F000E0821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVAFilterFoldersAction/DVAFilterFoldersAction-Prefix.pch";
+				INFOPLIST_FILE = "DVAFilterFoldersAction/DVAFilterFoldersAction-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		CEE9651718EA716F000E0821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVAFilterFoldersAction/DVAFilterFoldersAction-Prefix.pch";
+				INFOPLIST_FILE = "DVAFilterFoldersAction/DVAFilterFoldersAction-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE964F518EA716F000E0821 /* Build configuration list for PBXProject "DVAFilterFoldersAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE9651318EA716F000E0821 /* Debug */,
+				CEE9651418EA716F000E0821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE9651518EA716F000E0821 /* Build configuration list for PBXNativeTarget "DVAFilterFoldersAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE9651618EA716F000E0821 /* Debug */,
+				CEE9651718EA716F000E0821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE964F218EA716F000E0821 /* Project object */;
+}

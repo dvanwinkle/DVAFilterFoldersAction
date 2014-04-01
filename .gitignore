@@ -6,3 +6,6 @@
 #
 # Pods/
 
+*.xcuserstate
+DVAFilterFoldersAction.xcodeproj/xcuserdata
+DVAFilterFoldersAction.xccheckout

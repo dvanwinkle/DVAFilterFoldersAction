@@ -1,0 +1,22 @@
+/* Localized versions of Info.plist keys */
+
+/* AMApplication localized strings */
+/* e.g. "TextEdit" = "TextEdit"; */
+
+/* AMCategory localized strings */
+/* e.g. "Text" = "Text"; */
+
+AMName = "Filter Folders";
+
+/* AMDefaultParameters localized values */
+/* e.g. myDefaultIntegerParameter = 0; */
+/* e.g. myDefaultStringParameter = "Default String Value"; */
+
+/* AMDescription localized strings */
+AMDInput = "Files/Folders";
+AMDResult = "Files/Folders";
+AMDSummary = "Mac OSX Automator Action to filter folders. This will allow you to ignore folders that are empty, or only select empty folders.";
+
+/* AMKeyword localized strings */
+/* e.g. "Filter" = "Filter"; */
+
